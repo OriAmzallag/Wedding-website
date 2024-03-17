@@ -1,0 +1,44 @@
+.gallery {
+    margin: 80px 7px;
+    width: 100%;
+    text-align: center;
+}
+.Wedding1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.Wedding1 img {
+    width: 32%;
+    border-radius: 20px;
+}
+.Wedding2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.Wedding2 img {
+    width: 32%;
+    border-radius: 20px;
+}
+
+/* ---------------- media query ---------------- */
+
+@media (max-width: 800px) {
+    .Wedding1 {
+        flex-wrap: wrap ;
+    }
+    .Wedding1 img {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .Wedding2 {
+        flex-wrap: wrap;
+    }
+    .Wedding2 img {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+}

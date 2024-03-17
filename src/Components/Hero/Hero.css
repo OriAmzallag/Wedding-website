@@ -1,0 +1,60 @@
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(158, 166, 176, 0.354),rgba(114, 123, 122, 0.7)), url('../../assets/hero.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text{
+    text-align: center;
+    margin-top: 100px;
+    max-width: 1400px;
+    font-size: 28px;
+}
+.hero-text h1 {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-family: "The Girl Next Door", cursive;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 150px;
+}
+.hero-text p {
+    max-width: 6000px;
+    margin: 40px 30px;
+    font-size: 28px;
+    font-family: "The Girl Next Door", cursive;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 1.5;
+}
+.btn img {
+    width: 40px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+/* ---------------- media query ---------------- */
+
+@media (max-width: 850px) {
+    .hero-text h1 {
+        font-size: 40px;
+
+    }
+}
+
+@media (max-width: 650px) {
+    .hero-text h1 {
+        font-size: 30px;
+        max-width: 400px;
+        margin: auto;
+    }
+    .hero-text p {
+        font-size: 14px;
+        margin: 15px auto 30px;
+    }
+}
