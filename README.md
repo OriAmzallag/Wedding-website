@@ -15,7 +15,7 @@ Before running the project, ensure you have the following software installed on 
 
 1. Clone the repository to your local machine using the following command:
 
-git clone https://github.com/your-username/wedding-arrangement-website.git
+git clone https://github.com/OriAmzallag/wedding-arrangement-website.git
 
 2. Navigate to the project directory:
 
